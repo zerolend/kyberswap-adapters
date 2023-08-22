@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+# ZeroLend KyberSwap Adapters
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project contains the source code for ZeroLend's integration with KyberSwap's Aggregator API which is used by the protocol to 
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+- Perform liquidations
+- Perform zaps to allow users to repay debt with any collateral (WIP)
+- Perform zaps to allow users to swap collateral with flashloans (WIP)
